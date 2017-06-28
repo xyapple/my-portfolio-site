@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-wrapper {
+    background: #444 url(../img/banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+/*nav*/
+
+nav{
+	background: #aaa;
+	height: 50px;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+nav ul li, nav .logo{
+	line-height: 50px;
+	display: inline-block;
+	margin-right: 20px;
+}
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color:#fff;
+}
+.logo a{
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color:#fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+/*header*/
+#banner {
+background: #777;
+height: 700px;
+}
+
+#banner .inner {
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+
+#banner .inner h1{
+margin: 0;
+}
+#banner .inner .inner-button{
+	margin-top: 200px;
+}
+.sub-heading{
+	line-height: 30px;
+	margin: 30px;
+}
+button{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 10px;
+}
+
+.banner button{
+	border: none;
+	background: #333;
+	color: #eee;
+	padding: 14px 40px;
+}
+/*body*/
+.context {
+    line-height: 40px;
+    letter-spacing: 4px;
+    color: rgb(178, 200, 18);
+}
+
+.green-section {
+    text-align: center;
+    background: #089DB0;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.hr {
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+.green-section .hr {
+    background: #078494;
+    width: 50%;
+    margin-top: 1px;
+}
+
+.wrapper .sub-heading {
+    font-size: 25px;
+}
+
+h1 {
+    padding: 30px;
+    border: 2px solid rgba(36, 33, 28, 0.6);
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Lobster;
+    color: rgba(252, 157, 154, 0.7);
+}
+
+h3 {
+    font-size: 22px;
+    font-family: Georgia;
+    color: rgb(28, 120, 135);
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 8px;
+    color: rgb(201, 186, 131);
+}
+
+.icon-group {
+    margin-top: 60px;
+}
+
+.green-section .icon-group .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    transform: rotate(45deg);
+	border: 1px solid #0D6F7C;
+
+}
+
+
+/*footer*/
+footer {
+    background: rgba(3, 22, 52, 0.8);
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+}
+
+ul.share-group {
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.share-group li {
+    display: inline-block;
+    padding: 10px;
+	text-decoration: none;
+}
+
+.copy {
+    padding-bottom: 20px;
+}
