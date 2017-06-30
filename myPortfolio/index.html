@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/bootstrap-yd.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/rotatingCards.css" />
 
     <!-- Custom Fonts -->
@@ -62,37 +62,30 @@
 
     <!--home-->
     <header class="home">
-        <div class="home-body">
-            <!--<div class="backgroundLayer">-->
-            <div class="container">
-                <div class="row">
 
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">"Hello, World!"</h1>
-                        <pre id="typewriter">
-<span class="var-highlight">const</span> xyApple = {
-    name: <span class="string-highlight">'Yin Deascentis'</span>,
-    type: <span class="string-highlight">'Human'</span>,
-    location: <span class="string-highlight">'Earth'</span>,
-    properties:[<span class="string-highlight">'Javascript'</span>,
-                <span class="string-highlight">'HTML'</span>,
-                <span class="string-highlight">'CSS'</span>,
-                <span class="string-highlight">'Python'</span>,
-                <span class="string-highlight">'SQL'</span>];}; </pre>
-                        <br>
-                        <br>
-                        <br>
-
-                        <a href="#about">
-                            <i class="fa fa-arrow-circle-down animated"></i>
-                        </a>
-                    </div>
-
+        <div class="container">
+            <div class="row">
+    <div class="slider">
+        <div class="main" id="template_main">
+            <div class="main-i css" id="main_index">
+                <div class="caption">
+                    <h2>h2</h2>
+                    <h3>h3</h3>
                 </div>
-
+                <img src="img/index.jpg" class="picture"/>
             </div>
-            <!--</div>-->
+
         </div>
+        <div class="ctrl" id="template_ctrl">
+            <a class="ctrl-i" id="ctrl_index" href="javascript:switchSlider(index);">
+                <img src="img/index.jpg" />
+            </a>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
     </header>
     <!--home-->
     <!-- About Section -->
@@ -506,191 +499,6 @@
     </section>
     <!--projects-->
 
-    <!--educations-->
-    <section id="educations">
-        <div class="container">
-            <!--TimeLine-->
-            <div class="col-md-6">
-                <div class="col-sm-offset-2 page-header">
-                    <h1>Educations</h1>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="col-sm-offset-2 page-header">
-                    <h1>Work Experiences</h1>
-                </div>
-            </div>
-            <ul class="timeline">
-                <li class="era">
-                    <h2 class="era__title">2017</h2>
-                </li>
-                <li>
-                    <div class="timeline-badge edu"><i class="glyphicon glyphicon-education"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Boston University</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>2016 – Now</h5>
-                            <h5>
-                                Master of Science, Computer Information Systems
-                            </h5>
-                            <p>
-                                Core Courses: Database, JavaScript, Python, Network, IT strategy
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-badge edu"><i class="glyphicon glyphicon-education"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Udacity</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>2017</h5>
-                            <h5>
-                                Machine Learning Engineer Nanodegree
-                            </h5>
-                            <p>
-                                Core Courses: Make Predictive Models
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="era">
-                    <h2 class="era__title">2015-2016</h2>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-badge pretty"><i class="glyphicon glyphicon-star-empty"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Chica Project</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>11/2015 – 02/2016</h5>
-                            <h5>Information System Volunteer</h5>
-                            <p>
-                                Update and maintain existing websites and web applications.
-
-                            </p>
-
-                        </div>
-                    </div>
-                </li>
-
-                <li class="timeline-inverted">
-                    <div class="timeline-badge primary"><i class="glyphicon glyphicon-certificate"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Aegis Treatment Center</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>
-                                04/2014 - 04/2015
-                            </h5>
-                            <h5>
-                                Supervising Counselor
-                            </h5>
-                            <p>
-
-                                Provided professional counseling and referral services inclueding intatke and discharge assessments.
-                            </P>
-
-                        </div>
-                    </div>
-                </li>
-                <li class="era">
-                    <h2 class="era__title">2014-2015</h2>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-badge info"><i class="glyphicon glyphicon-certificate"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Catholic Community Service Family Resource Program</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>
-                                09/2012 - 09/2013
-                            </h5>
-                            <h5> Mental Health Clinician </h5>
-                            <p>Provided therapeutic counseling services to children and families.</p>
-
-                        </div>
-                    </div>
-                </li>
-                <li class="era">
-                    <h2 class="era__title">2010-2013</h2>
-                </li>
-                <li>
-                    <div class="timeline-badge edu"><i class="glyphicon glyphicon-education"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Southern Oregon University</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>
-                                09/2010 – 06/2012
-                            </h5>
-                            <h5>
-                                Master of Science, Mental Health Counseling
-                            </h5>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-badge success"><i class="glyphicon glyphicon-star-empty"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Addiction Recovery Center</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>
-                                09/2011 – 06/2012
-                            </h5>
-                            <h5> Mental Health Clinician Intern </h5>
-
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-badge pretty"><i class="glyphicon glyphicon-star-empty"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Hazel Center, SRTF, Jackson County Oregon</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>
-                                09/2010 – 06/2011
-                            </h5>
-                            <h5> Mental Health Clinician Intern </h5>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-badge edu"><i class="glyphicon glyphicon-education"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Southern Oregon University</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <h5>
-                                01/2007 – 06/2009
-                            </h5>
-                            <h5>
-                                Bachelor of Science, Psychology
-                            </h5>
-                        </div>
-                    </div>
-                </li>
-
-
-            </ul>
-        </div>
-
-    </section>
-    <!--works-->
-
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -730,8 +538,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
     <script src="js/rotatingCards.js"></script>
-    <script src="js/typed.js-master/js/typed.js"></script>
-    <script src="js/header.js"></script>
+    <script src="js/banner.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         function collapseNavbar() {
