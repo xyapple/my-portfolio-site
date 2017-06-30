@@ -1,11 +1,11 @@
 var data = [
-	{img:1,h1:'Creative',h2:'DUET'},
-	{img:2,h1:'Friendly',h2:'DEVIL'},
-	{img:3,h1:'Tranquilent',h2:'COMPATRAIOT'},
-	{img:4,h1:'Insecure',h2:'HUSSLER'},
-	{img:5,h1:'Loving',h2:'REBEL'},
-	{img:6,h1:'Passionate',h2:'SEEKER'},
-	{img:7,h1:'Crazy',h2:'FRIEND'}
+	{img:1,h1:'Creative',h2:'Camping'},
+	{img:2,h1:'Calm',h2:'Kayaking'},
+	{img:3,h1:'Delightful',h2:'Hiking'},
+	{img:4,h1:'Intuitive',h2:'Photograpy'},
+	{img:5,h1:'Energetic',h2:'Traveling'},
+	{img:6,h1:'Passionate',h2:'Caring'},
+	{img:7,h1:'Persistent',h2:'Programming'}
 ];
 
 var g = function (id){
